@@ -1,0 +1,13 @@
+[environments.env1]
+theme = "first theme"
+store = "autotel-test-model"
+password  = "bautre"
+ignore = "sections/header.liquid"
+
+[environments.env2]
+store = "another-store"
+path = "./dist"
+ignore = ["sections/announcement-bar.liquid", "sections/header.liquid"]
+output = "json"
+live = false
+allow-live = true
